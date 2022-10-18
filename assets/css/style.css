@@ -1,5 +1,4 @@
 .app {
-	background: #f1f1f1;
 	display: grid;
 	grid-template-areas:
 		"encabezado"
@@ -7,19 +6,21 @@
 		"rodapie";
 	grid-template-columns: auto;
 	grid-template-rows: 50px 100vh auto;
+	background: #f1f1f1;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .encabezado {
-	background: #00cc99;
+	/* background: #00cc99; */
 	grid-area: encabezado;
 }
 
 .contenido {
-	background: #ff8080;
+	/* background: #ff8080; */
 	grid-area: contenido;
 }
 
 .rodapie {
-	background: #0099ff;
+	/* background: #0099ff; */
 	grid-area: rodapie;
 }
