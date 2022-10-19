@@ -1,5 +1,11 @@
 .populares {
-	padding: 3rem 2rem;
+	padding: 3rem 0;
+}
+
+.populares__contenido {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem 0rem;
 }
 
 .populares__card {
