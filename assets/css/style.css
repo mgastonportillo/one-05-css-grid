@@ -11,11 +11,14 @@
 }
 
 .encabezado {
-	/* background: #00cc99; */
 	grid-area: encabezado;
 	padding: 0 2rem;
 	display: flex;
 	align-items: center;
+}
+
+.menu__lista {
+	display: flex;
 }
 
 .menu__link {
@@ -29,13 +32,11 @@
 }
 
 .contenido {
-	/* background: #ff8080; */
 	grid-area: contenido;
 	padding: 0 2rem;
 }
 
 .rodapie {
-	/* background: #0099ff; */
 	grid-area: rodapie;
 	background: #fdfdfd;
 	color: #333333;
